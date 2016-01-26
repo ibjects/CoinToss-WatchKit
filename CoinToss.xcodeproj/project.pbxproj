@@ -14,6 +14,12 @@
 		108527F91A77AC1E00AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108527F81A77AC1E00AAA7F9 /* Images.xcassets */; };
 		108527FC1A77AC1E00AAA7F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 108527FA1A77AC1E00AAA7F9 /* LaunchScreen.xib */; };
 		108528081A77AC1F00AAA7F9 /* CoinTossTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 108528071A77AC1F00AAA7F9 /* CoinTossTests.m */; };
+		1085281B1A77AC2C00AAA7F9 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1085281A1A77AC2C00AAA7F9 /* InterfaceController.m */; };
+		1085281D1A77AC2C00AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085281C1A77AC2C00AAA7F9 /* Images.xcassets */; };
+		108528211A77AC2C00AAA7F9 /* CoinToss WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 108528201A77AC2C00AAA7F9 /* CoinToss WatchKit App.app */; };
+		108528291A77AC2C00AAA7F9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108528271A77AC2C00AAA7F9 /* Interface.storyboard */; };
+		1085282B1A77AC2C00AAA7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085282A1A77AC2C00AAA7F9 /* Images.xcassets */; };
+		1085282E1A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 108528151A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +30,35 @@
 			remoteGlobalIDString = 108527E71A77AC1E00AAA7F9;
 			remoteInfo = CoinToss;
 		};
+		108528221A77AC2C00AAA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108527E01A77AC1E00AAA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1085281F1A77AC2C00AAA7F9;
+			remoteInfo = "CoinToss WatchKit App";
+		};
+		1085282C1A77AC2C00AAA7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108527E01A77AC1E00AAA7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 108528141A77AC2C00AAA7F9;
+			remoteInfo = "CoinToss WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		108528351A77AC2C00AAA7F9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1085282E1A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		108527E81A77AC1E00AAA7F9 /* CoinToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +74,15 @@
 		108528011A77AC1F00AAA7F9 /* CoinTossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinTossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		108528061A77AC1F00AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		108528071A77AC1F00AAA7F9 /* CoinTossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinTossTests.m; sourceTree = "<group>"; };
+		108528151A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoinToss WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108528181A77AC2C00AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108528191A77AC2C00AAA7F9 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1085281A1A77AC2C00AAA7F9 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1085281C1A77AC2C00AAA7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		108528201A77AC2C00AAA7F9 /* CoinToss WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoinToss WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108528261A77AC2C00AAA7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		108528281A77AC2C00AAA7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1085282A1A77AC2C00AAA7F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		108528121A77AC2C00AAA7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +115,8 @@
 			children = (
 				108527EA1A77AC1E00AAA7F9 /* CoinToss */,
 				108528041A77AC1F00AAA7F9 /* CoinTossTests */,
+				108528161A77AC2C00AAA7F9 /* CoinToss WatchKit Extension */,
+				108528241A77AC2C00AAA7F9 /* CoinToss WatchKit App */,
 				108527E91A77AC1E00AAA7F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +126,8 @@
 			children = (
 				108527E81A77AC1E00AAA7F9 /* CoinToss.app */,
 				108528011A77AC1F00AAA7F9 /* CoinTossTests.xctest */,
+				108528151A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex */,
+				108528201A77AC2C00AAA7F9 /* CoinToss WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +173,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		108528161A77AC2C00AAA7F9 /* CoinToss WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				108528191A77AC2C00AAA7F9 /* InterfaceController.h */,
+				1085281A1A77AC2C00AAA7F9 /* InterfaceController.m */,
+				1085281C1A77AC2C00AAA7F9 /* Images.xcassets */,
+				108528171A77AC2C00AAA7F9 /* Supporting Files */,
+			);
+			path = "CoinToss WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		108528171A77AC2C00AAA7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108528181A77AC2C00AAA7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		108528241A77AC2C00AAA7F9 /* CoinToss WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				108528271A77AC2C00AAA7F9 /* Interface.storyboard */,
+				1085282A1A77AC2C00AAA7F9 /* Images.xcassets */,
+				108528251A77AC2C00AAA7F9 /* Supporting Files */,
+			);
+			path = "CoinToss WatchKit App";
+			sourceTree = "<group>";
+		};
+		108528251A77AC2C00AAA7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108528261A77AC2C00AAA7F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +220,12 @@
 				108527E41A77AC1E00AAA7F9 /* Sources */,
 				108527E51A77AC1E00AAA7F9 /* Frameworks */,
 				108527E61A77AC1E00AAA7F9 /* Resources */,
+				108528351A77AC2C00AAA7F9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1085282D1A77AC2C00AAA7F9 /* PBXTargetDependency */,
 			);
 			name = CoinToss;
 			productName = CoinToss;
@@ -157,6 +250,39 @@
 			productReference = 108528011A77AC1F00AAA7F9 /* CoinTossTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		108528141A77AC2C00AAA7F9 /* CoinToss WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108528321A77AC2C00AAA7F9 /* Build configuration list for PBXNativeTarget "CoinToss WatchKit Extension" */;
+			buildPhases = (
+				108528111A77AC2C00AAA7F9 /* Sources */,
+				108528121A77AC2C00AAA7F9 /* Frameworks */,
+				108528131A77AC2C00AAA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108528231A77AC2C00AAA7F9 /* PBXTargetDependency */,
+			);
+			name = "CoinToss WatchKit Extension";
+			productName = "CoinToss WatchKit Extension";
+			productReference = 108528151A77AC2C00AAA7F9 /* CoinToss WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1085281F1A77AC2C00AAA7F9 /* CoinToss WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085282F1A77AC2C00AAA7F9 /* Build configuration list for PBXNativeTarget "CoinToss WatchKit App" */;
+			buildPhases = (
+				1085281E1A77AC2C00AAA7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoinToss WatchKit App";
+			productName = "CoinToss WatchKit App";
+			productReference = 108528201A77AC2C00AAA7F9 /* CoinToss WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +298,12 @@
 					108528001A77AC1F00AAA7F9 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 108527E71A77AC1E00AAA7F9;
+					};
+					108528141A77AC2C00AAA7F9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1085281F1A77AC2C00AAA7F9 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +322,8 @@
 			targets = (
 				108527E71A77AC1E00AAA7F9 /* CoinToss */,
 				108528001A77AC1F00AAA7F9 /* CoinTossTests */,
+				108528141A77AC2C00AAA7F9 /* CoinToss WatchKit Extension */,
+				1085281F1A77AC2C00AAA7F9 /* CoinToss WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +343,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108528131A77AC2C00AAA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108528211A77AC2C00AAA7F9 /* CoinToss WatchKit App.app in Resources */,
+				1085281D1A77AC2C00AAA7F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085281E1A77AC2C00AAA7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108528291A77AC2C00AAA7F9 /* Interface.storyboard in Resources */,
+				1085282B1A77AC2C00AAA7F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +385,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		108528111A77AC2C00AAA7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085281B1A77AC2C00AAA7F9 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +400,16 @@
 			isa = PBXTargetDependency;
 			target = 108527E71A77AC1E00AAA7F9 /* CoinToss */;
 			targetProxy = 108528021A77AC1F00AAA7F9 /* PBXContainerItemProxy */;
+		};
+		108528231A77AC2C00AAA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1085281F1A77AC2C00AAA7F9 /* CoinToss WatchKit App */;
+			targetProxy = 108528221A77AC2C00AAA7F9 /* PBXContainerItemProxy */;
+		};
+		1085282D1A77AC2C00AAA7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 108528141A77AC2C00AAA7F9 /* CoinToss WatchKit Extension */;
+			targetProxy = 1085282C1A77AC2C00AAA7F9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +428,14 @@
 				108527FB1A77AC1E00AAA7F9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		108528271A77AC2C00AAA7F9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				108528281A77AC2C00AAA7F9 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -393,6 +571,62 @@
 			};
 			name = Release;
 		};
+		108528301A77AC2C00AAA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CoinToss_WatchKit_Extension;
+				INFOPLIST_FILE = "CoinToss WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		108528311A77AC2C00AAA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = CoinToss_WatchKit_Extension;
+				INFOPLIST_FILE = "CoinToss WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		108528331A77AC2C00AAA7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoinToss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		108528341A77AC2C00AAA7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CoinToss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +652,22 @@
 			buildConfigurations = (
 				1085280F1A77AC1F00AAA7F9 /* Debug */,
 				108528101A77AC1F00AAA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1085282F1A77AC2C00AAA7F9 /* Build configuration list for PBXNativeTarget "CoinToss WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108528301A77AC2C00AAA7F9 /* Debug */,
+				108528311A77AC2C00AAA7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		108528321A77AC2C00AAA7F9 /* Build configuration list for PBXNativeTarget "CoinToss WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108528331A77AC2C00AAA7F9 /* Debug */,
+				108528341A77AC2C00AAA7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

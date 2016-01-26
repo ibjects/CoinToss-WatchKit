@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--bg-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller backgroundImage="bg" contentMode="scaleAspectFill" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="center" verticalAlignment="bottom" alpha="0.59999999999999964" title="Toss" id="5cf-Ee-GtA">
+                            <connections>
+                                <action selector="tossPressed" destination="AgC-eL-Hgc" id="1XY-N3-JPe"/>
+                            </connections>
+                        </button>
+                        <separator width="1" alignment="left" alpha="0.0" id="r5N-NZ-gfg">
+                            <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <imageView width="80" height="80" alignment="center" alpha="0.79999999999999982" id="VPw-oe-HL9"/>
+                        <label alignment="center" verticalAlignment="center" id="VBs-c6-Jsa">
+                            <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="Total Toss: 0" id="AFu-V8-aT7"/>
+                    </items>
+                    <connections>
+                        <outlet property="resultImage" destination="VPw-oe-HL9" id="O1t-JW-3D5"/>
+                        <outlet property="resultLabel" destination="VBs-c6-Jsa" id="x05-nw-V8D"/>
+                        <outlet property="totalTossNumber" destination="AFu-V8-aT7" id="8jZ-Y7-5n6"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
